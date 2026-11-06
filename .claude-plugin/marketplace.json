@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "jax-trace-analysis",
+  "description": "Claude Code skills for analyzing jax.profiler / XProf captures on GPUs.",
+  "owner": {
+    "name": "chunyjin"
+  },
+  "plugins": [
+    {
+      "name": "jax-trace-analysis",
+      "source": "./",
+      "description": "Skills for analyzing jax.profiler.trace() / XProf captures on GPUs.",
+      "category": "development"
+    }
+  ]
+}

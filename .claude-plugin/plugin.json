@@ -1,0 +1,19 @@
+{
+  "name": "jax-trace-analysis",
+  "description": "Analyze jax.profiler.trace() / XProf captures (trace.json.gz, xplane.pb) on GPUs: CPU- vs GPU-bound verdict, launch overhead, deep trace-only investigation, report pages, before/after comparison, ROCm tracer defect checks, and out-of-memory debugging.",
+  "version": "0.3.1",
+  "author": {
+    "name": "chunyjin"
+  },
+  "keywords": [
+    "jax",
+    "xla",
+    "profiling",
+    "rocm",
+    "xprof",
+    "trace"
+  ],
+  "experimental": {
+    "evals": "evals/plugin"
+  }
+}

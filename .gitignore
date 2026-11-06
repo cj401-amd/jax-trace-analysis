@@ -1,0 +1,5 @@
+skip_out/
+__pycache__/
+# Tests and eval cases use local captures; kept out of the repo.
+evals/
+tests/
